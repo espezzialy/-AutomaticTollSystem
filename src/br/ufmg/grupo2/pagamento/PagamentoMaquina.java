@@ -8,7 +8,7 @@ public class PagamentoMaquina implements Pagamento {
 
         // Integração externa para casos de uso se o veiculo tem placa especifica o pagamento falha;
         if (veiculo.getPlaca().equals("ERRO123")) {
-            return null;
+            return "ERRO123";
         }
         else return "HAX123";
     }

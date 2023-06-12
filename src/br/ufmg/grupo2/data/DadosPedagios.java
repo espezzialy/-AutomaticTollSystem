@@ -62,6 +62,7 @@ public class DadosPedagios {
         this.veiculos.add(new Veiculo("ERRO123", TipoVeiculo.CAMINHAO));
         this.veiculos.add(new Veiculo("HAX1234", TipoVeiculo.CARRO, new SmartCard("Codigo1", 200f)));
         this.veiculos.add(new Veiculo("HAX1234", TipoVeiculo.CARRO, new SmartCard("Codigo1")));
+        this.veiculos.add(new Veiculo("HAX1234", TipoVeiculo.MOTO ));
         this.veiculos.add(new Veiculo("HAX1234", TipoVeiculo.MOTO, new SmartCard("Codigo1", 200f)));
         this.veiculos.add(new Veiculo("HAX1234", TipoVeiculo.CAMINHAO, new SmartCard("Codigo1", 200f)));
         this.veiculos.add(new Veiculo("HAX1234", TipoVeiculo.CAMINHAO, new SmartCard("Codigo1", 200f)));

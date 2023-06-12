@@ -49,6 +49,8 @@ public class Pedagio {
 
                         if(!statusPagamento) {
                             setStatusPedagio(StatusPedagio.FALHA);
+                            setVeiculo(null);
+                            sistemaReconhecimentoVeiculo.setVeiculo(null)
                             break;
                         }
                         adicionaSaldo(calculaValor(veiculo));

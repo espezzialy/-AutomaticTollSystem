@@ -8,7 +8,7 @@ public class IntegracaoAutoAtendimento  {
 
     public boolean realizarCobranca(Veiculo veiculo, float valor) {
         String retorno = pagamentoMaquina.tokenPagamento(veiculo, valor);
-        return !retorno.equals("ERR1234");
+        return !retorno.equals("ERRO123");
     }
 
 }

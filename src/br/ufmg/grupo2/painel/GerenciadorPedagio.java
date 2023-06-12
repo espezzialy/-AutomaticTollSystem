@@ -59,6 +59,7 @@ public class GerenciadorPedagio extends Painel {
         int option = Integer.parseInt(optionSelected);
         if(option >= 0 && option <= 5) {
             dadosPedagios.getPedagios().get(option).ativarPedagio();
+            dadosPedagios.getPedagios().get(option).setStatusPedagio(StatusPedagio.DISPONIVEL);
             line = """
                 Pedagio reiniciado!
                 Voltando ao menu
