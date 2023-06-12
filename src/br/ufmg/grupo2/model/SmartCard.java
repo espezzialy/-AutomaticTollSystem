@@ -9,12 +9,21 @@ public class SmartCard {
         this.saldo = 0.0f;
     }
 
+    public SmartCard(String codigoSmartCard, float saldo) {
+        this.codigoSmartCard = codigoSmartCard;
+        this.saldo = saldo;
+    }
+
     public Float getSaldo() {
         return saldo;
     }
 
     public void carregarCartao(Float saldo) {
         this.saldo = this.saldo + saldo;
+    }
+
+    public void debitarValor(Float valor) {
+        this.saldo = saldo - valor;
     }
 
     public String getCodigoSmartCard() {
